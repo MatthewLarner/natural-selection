@@ -1,6 +1,6 @@
 {
   "name": "natural-selection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect if an element supports selection range in chrome",
   "main": "index.js",
   "scripts": {
