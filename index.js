@@ -1,5 +1,5 @@
-var supportedTypes = ['text', 'search', 'tel', 'url', 'password'];
+var supportedTypes = ['textarea', 'text', 'search', 'tel', 'url', 'password'];
 
-module.exports = function(element){
+module.exports = function(element) {
     return !!(element.setSelectionRange && ~supportedTypes.indexOf(element.type));
 };
